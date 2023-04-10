@@ -1,0 +1,103 @@
+.real-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(73, 73, 73);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 20px;
+}
+
+.linea {
+  border-top: 1px solid rgb(83, 83, 83);
+  height: 1px;
+  max-width: 1000px;
+  padding: 0;
+  margin-top: -1%;
+  margin-bottom: 4%;
+
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.page {
+  width: 70%;
+  border: 1px solid rgb(172, 172, 172);
+}
+
+.git {
+  margin-top: -5%;
+margin-left: 25%;
+margin-bottom: 8%;
+border: 1px solid rgb(119, 119, 119);
+border-radius: 9px;
+width: 6%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(228, 232, 235);
+font-size: 20px;
+padding: 5px;
+}
+ a{
+  text-decoration: none;
+  color: black;
+ }
+ a:hover {
+  color: rgb(128, 128, 128);
+ }
+img {
+  width: 100%;
+
+}
+
+p {
+  width: 70%;
+  margin-bottom: 8%;
+}
+
+.arrow {
+  width: 6%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.arrow:hover {
+  margin-left: 29%;
+}
+
+@media screen and (max-width: 640px) {
+  .real-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(73, 73, 73);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 20px;
+  }
+
+
+
+  .git {
+
+  width:15%;
+
+  }
+
+
+ .arrow {
+      width: 10%;
+    }
+
+}
+
+
