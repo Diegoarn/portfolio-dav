@@ -5,11 +5,15 @@ footer {
   align-items: center;
   border-top: 1px solid rgb(128, 128, 128);
   padding-bottom: 1%;
+  color: rgb(75, 75, 75);
+  background-color: rgb(218, 219, 221);
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 @media screen and (max-width: 500px) {
 footer {
-  font-size: 10px;
+  font-size: 14px;
 }
 }
 

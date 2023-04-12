@@ -7,13 +7,13 @@
   margin-left: 25%;
   margin-top: 5%;
   margin-bottom: 10%;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .linea {
   border-top: 1px solid rgb(83, 83, 83);
   height: 1px;
-  max-width: 1000px;
+  max-width: 700px;
   padding: 0;
   margin-top: -1%;
   margin-bottom: 4%;
@@ -27,31 +27,18 @@
 }
 
 .git {
-  margin-top: -5%;
-margin-left: 25%;
-margin-bottom: 8%;
-border: 1px solid rgb(119, 119, 119);
-border-radius: 9px;
-width: 6%;
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: rgb(228, 232, 235);
-font-size: 20px;
-padding: 5px;
-}
-
-a{
-  text-decoration: none;
-  color: black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 24px;
-  padding: 16px;
- }
-
- a:hover {
-  color: rgb(128, 128, 128);
- }
+  margin-left: 30%;
+  margin-bottom: 8%;
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 9px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(233, 234, 235);
+  font-size: 16px;
+  padding: 5px;
+  }
 
 .page {
   width: 70%;
@@ -70,8 +57,7 @@ p {
 a {
   text-decoration: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 24px;
-
+  font-size: 16px;
   color: rgb(63, 63, 63);
   padding: 16px;
 }
@@ -101,14 +87,11 @@ a:hover {
     margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 10%;
-    font-size: 20px;
-  }
-
-  .git {
-  width:15%;
+    font-size: 16px;
   }
 
   .arrow {
     width: 10%;
   }
+
 }

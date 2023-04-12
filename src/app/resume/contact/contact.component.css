@@ -1,0 +1,89 @@
+
+
+h1 {
+  height: 18px;
+  font-size: 28px;
+}
+
+h2 {
+  margin-top: -3px;
+  font-weight: lighter;
+  color: rgb(124, 124, 124);
+  font-size: 24px;
+}
+.foto-container {
+  width: 180px;
+}
+.foto {
+  width: 90%;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 2px solid rgb(160, 160, 160);
+  margin-top: 20px;
+  opacity: 94%;
+}
+
+.nombre {
+  width: 50%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 6%;
+  width: 100%;
+}
+
+p {
+  color: rgb(105, 105, 105);
+  font-size: 16px;
+}
+.link-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.link {
+  width: 34px;
+  opacity: 70%;
+}
+
+.link:hover {
+  opacity: 55%;
+}
+.linkedin {
+  width: 42px;
+  opacity: 70%;
+}
+.linkedin:hover {
+  opacity: 55%;
+}
+
+@media screen and (max-width: 840px) {
+
+  .foto-container {
+    width: 140px;
+  }
+
+  h1 {
+    font-size: 22px;
+    width: 300px;
+  }
+
+  h2 {
+    margin-top: -1px;
+    font-size: 18px;
+    width: 300px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

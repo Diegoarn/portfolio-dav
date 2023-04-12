@@ -12,6 +12,7 @@ import { CataloguesComponent } from './portfolio/components-portfolio/catalogues
 import { ReactComponent } from './portfolio/components-portfolio/react/react.component';
 import { AngularComponent } from './portfolio/components-portfolio/angular/angular.component';
 import { MenuComponent } from './portfolio/components-portfolio/menu/menu.component';
+import { ContactComponent } from './resume/contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +26,7 @@ import { MenuComponent } from './portfolio/components-portfolio/menu/menu.compon
     ReactComponent,
     AngularComponent,
     MenuComponent,
+    ContactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
