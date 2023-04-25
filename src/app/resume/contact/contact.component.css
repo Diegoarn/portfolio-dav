@@ -39,11 +39,11 @@ h1 {
 h2 {
   margin-top: -3px;
   font-weight: lighter;
-  color: rgb(124, 124, 124);
+  color:rgb(168, 167, 167);
   font-size: 24px;
 }
 .foto-container {
-  width: 240px;
+  width: 230px;
   margin-top: 5%;
 
 }
@@ -52,7 +52,7 @@ h2 {
   overflow: hidden;
   border-radius: 18px;
   border: 1px solid rgb(121, 121, 123);
-  opacity: 68%;
+  opacity: 85%;
 }
 
 .nombre {
