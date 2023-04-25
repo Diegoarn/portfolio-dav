@@ -64,8 +64,9 @@ a {
 
 
 a:hover {
-  color: rgb(167, 167, 167);
-}
+  color: rgb(128, 128, 128);
+  border: 1px solid rgb(230, 230, 230);
+ }
 
 .arrow {
   width: 6%;

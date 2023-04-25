@@ -9,7 +9,4 @@ export class ResumeComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-  scrollToTop() {
-    window.scrollTo(0, 0);
-  }
 }

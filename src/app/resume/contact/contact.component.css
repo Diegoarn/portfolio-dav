@@ -1,8 +1,39 @@
 
+.background-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(75, 72, 92);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid rgb(121, 121, 123);
+  border-left: none;
+  color: rgb(185, 185, 185);
+  margin-bottom: 5%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 12%;
+  width: 100%;
+  height: 24em;
+  gap: 2%;
+
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12%;
+}
 
 h1 {
   height: 18px;
   font-size: 28px;
+  margin-top: -2%;
 }
 
 h2 {
@@ -12,64 +43,88 @@ h2 {
   font-size: 24px;
 }
 .foto-container {
-  width: 180px;
+  width: 240px;
+  margin-top: 5%;
+
 }
 .foto {
-  width: 90%;
+  width: 100%;
   overflow: hidden;
   border-radius: 18px;
-  border: 2px solid rgb(160, 160, 160);
-  margin-top: 20px;
-  opacity: 94%;
+  border: 1px solid rgb(121, 121, 123);
+  opacity: 68%;
 }
 
 .nombre {
-  width: 50%;
-}
-
-.contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  gap: 6%;
   width: 100%;
+  margin-top: 2%;
 }
 
-p {
-  color: rgb(105, 105, 105);
+/* p {
+  color: rgb(206, 206, 206);
   font-size: 16px;
-}
+} */
 .link-container {
   display: flex;
   flex-direction: row;
   gap: 10px;
   align-items: center;
-  margin-top: -5px;
+  margin-top: -8px;
 }
 
 .link {
-  width: 34px;
-  opacity: 70%;
+  width: 31px;
+  opacity: 58%;
 }
 
 .link:hover {
-  opacity: 55%;
+  opacity: 80%;
 }
 .linkedin {
-  width: 42px;
-  opacity: 70%;
-}
-.linkedin:hover {
+  width: 40px;
   opacity: 55%;
 }
+.linkedin:hover {
+  opacity: 80%;
+}
+
+.paragraph {
+font-size: 16px;
+width: 65%;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 155px solid rgb(121, 121, 123);
+  border-top: 190px solid transparent;
+  border-bottom: 190px solid transparent;
+}
+
+
+
+
 
 @media screen and (max-width: 840px) {
 
+  .header-container {
+    justify-content: left;
+    align-items: start;
+
+    width: 100%;
+    height: 100%;
+    gap: 8%;
+   margin-top: 0%;
+    margin-bottom: 3%;
+  }
+
   .foto-container {
+    margin-top: 5%;
     width: 140px;
   }
 
   h1 {
+    margin-top: 16px;
     font-size: 22px;
     width: 300px;
   }
@@ -83,7 +138,31 @@ p {
   .contact {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10%;
+  }
+
+  .paragraph {
+    width: 75%;
+
+    }
+    .triangulo {
+      width: 0;
+      height: 0;
+      border-left: 100px solid rgb(121, 121, 123);
+      border-top: 250px solid transparent;
+      border-bottom: 250px solid transparent;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+
+  .triangulo {
+    width: 0;
+    height: 0;
+    border-left: 0px solid rgb(121, 121, 123);
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
   }
 }
