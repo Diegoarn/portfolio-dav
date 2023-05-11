@@ -23,8 +23,9 @@
 
 
 .item:hover {
-  background-color: rgb(147, 147, 150);
-  border: 2px solid rgb(131, 131, 131);
+  /* background-color: rgb(147, 147, 150);
+  border: 2px solid rgb(131, 131, 131); */
+  opacity: 75%;
 }
 
 h4 {
@@ -39,12 +40,6 @@ h4 {
   height: 208px;
   border-bottom: 2px solid rgb(107, 107, 107);
 }
-
-.item-img:hover{
-
-  /* border-bottom: 2px solid  rgb(131, 131, 131); */
-}
-
 
 img {
   width: 100%;
