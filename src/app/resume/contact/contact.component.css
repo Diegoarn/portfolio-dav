@@ -7,7 +7,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: 2px solid rgb(121, 121, 123);
   border-left: none;
-  color: rgb(185, 185, 185);
+  color: rgb(212, 212, 212);
   margin-bottom: 5%;
 }
 
@@ -60,10 +60,6 @@ h2 {
   margin-top: 2%;
 }
 
-/* p {
-  color: rgb(206, 206, 206);
-  font-size: 16px;
-} */
 .link-container {
   display: flex;
   flex-direction: row;
