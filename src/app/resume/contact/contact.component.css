@@ -8,7 +8,7 @@
   border: 2px solid rgb(121, 121, 123);
   border-left: none;
   color: rgb(212, 212, 212);
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 
 .header-container {
@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: 12%;
+  margin-left: 15%;
   width: 100%;
   height: 24em;
   gap: 2%;
