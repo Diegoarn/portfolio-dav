@@ -13,6 +13,8 @@ import { ReactComponent } from './portfolio/components-portfolio/react/react.com
 import { AngularComponent } from './portfolio/components-portfolio/angular/angular.component';
 import { MenuComponent } from './portfolio/components-portfolio/menu/menu.component';
 import { ContactComponent } from './resume/contact/contact.component';
+import { ContactDetailsPopupComponent } from './resume/contact-details-popup/contact-details-popup.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +29,7 @@ import { ContactComponent } from './resume/contact/contact.component';
     AngularComponent,
     MenuComponent,
     ContactComponent,
+    ContactDetailsPopupComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
