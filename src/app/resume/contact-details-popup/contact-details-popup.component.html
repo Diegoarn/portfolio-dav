@@ -1,3 +1,7 @@
+<a (click)="openPopup()">
+  <img src="./assets/mail.png" class="mail" />
+</a>
+
 <div class="popup-container" *ngIf="isOpen">
   <div class="popup-content">
     <p>Email:<b> arnedoav@gmail.com</b></p>
@@ -5,7 +9,3 @@
     <button (click)="closePopup()">Close</button>
   </div>
 </div>
-
-<a (click)="openPopup()">
-  <img src="./assets/mail.png" class="mail" />
-</a>

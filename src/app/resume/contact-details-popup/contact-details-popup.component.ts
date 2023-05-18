@@ -8,11 +8,9 @@ import { Component, Input } from '@angular/core';
 export class ContactDetailsPopupComponent {
   @Input() contact: any;
   isOpen = false;
-
   openPopup() {
     this.isOpen = true;
   }
-
   closePopup() {
     this.isOpen = false;
   }
