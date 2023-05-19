@@ -4,6 +4,7 @@
   flex-direction: row;
   align-items: center;
   background-color: rgb(75, 72, 92);
+  /* background-color: rgb(79, 68, 100); */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: 2px solid rgb(121, 121, 123);
   border-left: none;
@@ -65,12 +66,12 @@ h2 {
   flex-direction: row;
   gap: 14px;
   align-items: center;
-  margin-top: 4%;
+  margin-top: 7%;
 }
 
 .link {
   width: 31px;
-  opacity: 80%;
+  opacity: 67%;
 }
 
 .link:hover {
@@ -78,7 +79,7 @@ h2 {
 }
 .linkedin {
   width: 31px;
-  opacity: 80%;
+  opacity: 67%;
 }
 .linkedin:hover {
   opacity: 40%;
@@ -93,12 +94,10 @@ width: 65%;
   width: 0;
   height: 0;
   border-left: 160px solid rgb(121, 121, 123);
+  /* border-left: 160px solid rgb(89, 100, 68); */
   border-top: 200px solid transparent;
   border-bottom: 200px solid transparent;
 }
-
-
-
 
 
 @media screen and (max-width: 840px) {
