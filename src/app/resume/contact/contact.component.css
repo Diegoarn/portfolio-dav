@@ -1,11 +1,11 @@
-
 .background-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   background-color: rgb(41, 41, 80);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-left: none;
+
   color: rgb(212, 212, 212);
   margin-bottom: 2%;
 }
@@ -19,7 +19,6 @@
   width: 100%;
   height: 25em;
   gap: 2%;
-
 }
 .contact {
   display: flex;
@@ -38,13 +37,12 @@ h1 {
 h2 {
   margin-top: -3px;
   font-weight: lighter;
-  color:rgb(168, 167, 167);
+  color: rgb(168, 167, 167);
   font-size: 24px;
 }
 .foto-container {
   width: 230px;
   margin-top: 5%;
-
 }
 .foto {
   width: 100%;
@@ -69,7 +67,7 @@ h2 {
 
 .link {
   width: 31px;
-  opacity: 75%;
+  opacity: 85%;
 }
 
 .link:hover {
@@ -77,30 +75,27 @@ h2 {
 }
 .linkedin {
   width: 31px;
-  opacity: 75%;
+  opacity: 85%;
 }
 .linkedin:hover {
   opacity: 35%;
 }
 
 .paragraph {
-font-size: 17px;
-width: 65%;
-line-height: 150%;
+  font-size: 17px;
+  width: 66%;
+  line-height: 150%;
 }
 
 .triangulo {
   width: 0;
   height: 0;
-  /* border-left: 160px solid rgb(121, 121, 123); */
-  border-left: 160px solid rgb(95,95, 124);
+  border-left: 160px solid rgb(95, 95, 124);
   border-top: 200px solid transparent;
   border-bottom: 200px solid transparent;
 }
 
-
 @media screen and (max-width: 840px) {
-
   .header-container {
     justify-content: left;
     align-items: start;
@@ -108,7 +103,7 @@ line-height: 150%;
     width: 100%;
     height: 100%;
     gap: 8%;
-   margin-top: 0%;
+    margin-top: 0%;
     margin-bottom: 3%;
   }
 
@@ -138,20 +133,17 @@ line-height: 150%;
 
   .paragraph {
     width: 75%;
-
-    }
-    .triangulo {
-      width: 0;
-      height: 0;
-      border-left: 100px solid rgb(121, 121, 123);
-      border-top: 250px solid transparent;
-      border-bottom: 250px solid transparent;
-    }
+  }
+  .triangulo {
+    width: 0;
+    height: 0;
+    border-left: 100px solid rgb(121, 121, 123);
+    border-top: 250px solid transparent;
+    border-bottom: 250px solid transparent;
+  }
 }
 
-
 @media screen and (max-width: 420px) {
-
   .triangulo {
     width: 0;
     height: 0;

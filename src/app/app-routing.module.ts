@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ResumeComponent } from './resume/resume.component';
-import { PdfComponent } from './resume/pdf/pdf.component';
 import { PortfolioComponent } from 'src/app/portfolio/portfolio.component';
 import { RealEstateComponent } from './portfolio/components-portfolio/real-estate/real-estate.component';
 import { BillboardsComponent } from './portfolio/components-portfolio/billboards/billboards.component';
@@ -13,7 +12,7 @@ import { MenuComponent } from './portfolio/components-portfolio/menu/menu.compon
 const routes: Routes = [
   { path: '', component: ResumeComponent },
   { path: 'portfolio', component: PortfolioComponent },
-  { path: 'pdf', component: PdfComponent },
+
   {
     path: 'portfolio/components-portfolio/real-estate',
     component: RealEstateComponent,

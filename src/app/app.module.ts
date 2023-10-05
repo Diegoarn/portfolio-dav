@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 import { FooterComponent } from './footer/footer.component';
-import { PdfComponent } from './resume/pdf/pdf.component';
 import { RealEstateComponent } from './portfolio/components-portfolio/real-estate/real-estate.component';
 import { BillboardsComponent } from './portfolio/components-portfolio/billboards/billboards.component';
 import { CataloguesComponent } from './portfolio/components-portfolio/catalogues/catalogues.component';
@@ -21,7 +20,6 @@ import { ContactDetailsPopupComponent } from './resume/contact-details-popup/con
     PortfolioComponent,
     ResumeComponent,
     FooterComponent,
-    PdfComponent,
     RealEstateComponent,
     BillboardsComponent,
     CataloguesComponent,

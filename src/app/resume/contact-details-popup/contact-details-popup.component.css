@@ -26,17 +26,11 @@ button {
 }
 
 .mail {
-width: 31px;
-opacity: 75%;
+  width: 31px;
+  opacity: 82%;
 }
 
 .mail:hover {
   cursor: pointer;
   opacity: 35%;
 }
-
-
-
-
-
-

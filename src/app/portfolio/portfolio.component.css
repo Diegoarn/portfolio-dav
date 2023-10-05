@@ -11,8 +11,8 @@
 }
 
 .item {
-  /* background-color: rgb(121, 121, 123); */
-  background-color: rgb(84, 84, 104);
+  /*background-color: rgb(84, 84, 104);*/
+  background-color: rgb(52, 52, 86);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -28,7 +28,6 @@
 }
 
 h4 {
-  margin-left: 5%;
   color: rgb(241, 234, 234);
 }
 
@@ -55,6 +54,9 @@ img {
 a {
   text-decoration: none;
   color: rgb(68, 68, 68);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (max-width: 944px) {
@@ -63,7 +65,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     gap: 60px;
+    gap: 60px;
     font-size: 18px;
   }
 
@@ -95,5 +97,3 @@ a {
     font-size: 18px;
   }
 }
-
-
