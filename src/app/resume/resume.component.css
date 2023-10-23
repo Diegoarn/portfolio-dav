@@ -33,13 +33,15 @@ a {
 }
 
 .herramientas-container {
-  width: 90%;
+  width: 80%;
   margin-top: 3%;
   display: grid;
   align-items: center;
   grid-template-rows: repeat(4, 25%);
   grid-template-columns: repeat(3, 33%);
   margin-left: -7%;
+
+  padding-left: 32px;
 }
 
 .herramientas-a {
