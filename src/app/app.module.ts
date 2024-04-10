@@ -13,6 +13,8 @@ import { AngularComponent } from './portfolio/components-portfolio/angular/angul
 import { MenuComponent } from './portfolio/components-portfolio/menu/menu.component';
 import { ContactComponent } from './resume/contact/contact.component';
 import { ContactDetailsPopupComponent } from './resume/contact-details-popup/contact-details-popup.component';
+import { LibreriaComponent } from './portfolio/components-portfolio/libreria/libreria.component';
+
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { ContactDetailsPopupComponent } from './resume/contact-details-popup/con
     MenuComponent,
     ContactComponent,
     ContactDetailsPopupComponent,
+    LibreriaComponent,
+   
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
