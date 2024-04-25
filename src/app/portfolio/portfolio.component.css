@@ -57,7 +57,7 @@ a {
   align-items: center;
 }
 
-@media screen and (max-width: 944px) {
+@media screen and (max-width: 800px) {
   .portfolio-container {
     display: flex;
     flex-direction: column;

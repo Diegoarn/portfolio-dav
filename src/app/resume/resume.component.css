@@ -198,13 +198,14 @@ a {
   width: 60px;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 760px) {
   .cv-container {
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 10%;
     margin-right: 2%;
     font-size: 16px;
+    align-items: center;
   }
 
   .experiencia {
@@ -213,24 +214,24 @@ a {
 
   .title {
     margin-top: 18%;
-    margin-left: 0%;
+    align-self: center;
   }
 
   .line {
-    border-top: 1px solid rgb(83, 83, 83);
+    border-top: 1px solid rgb(110, 107, 126);
     height: 1px;
-    max-width: 800px;
+    width: 100%;
     padding: 0;
-    margin-left: 0px;
+    align-self: center;
     margin-top: -10px;
-    margin-bottom: 25px;
+   
   }
   .herramientas-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     font-size: 16px;
-    margin-left: 4%;
+    margin-left: 8rem;
   }
 
   .logos {
@@ -242,6 +243,7 @@ a {
     margin-left: 8%;
   }
   .pdf-container {
-    margin-bottom: 6%;
+    align-items: center;
+    margin-left: 0;
   }
 }
