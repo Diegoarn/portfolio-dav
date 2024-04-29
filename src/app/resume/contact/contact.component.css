@@ -4,10 +4,8 @@
   align-items: center;
   background-color: rgb(40, 40, 65);
   background-color: #1b1b22;
-
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-left: none;
-
   color: rgb(212, 212, 212);
   margin-bottom: 2%;
 }
@@ -101,7 +99,7 @@ h2 {
   .header-container {
     justify-content: left;
     align-items: start;
-    
+
     width: 100%;
     height: 100%;
     gap: 8%;
