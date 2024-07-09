@@ -7,6 +7,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-left: none;
   color: rgb(212, 212, 212);
+  /* color: rgb(255, 255, 255); */
   margin-bottom: 2%;
 }
 
@@ -32,12 +33,13 @@ h1 {
   height: 18px;
   font-size: 30px;
   margin-top: -2%;
+  color: rgb(245, 245, 245);
 }
 
 h2 {
   margin-top: -3px;
   font-weight: lighter;
-  color: rgb(168, 167, 167);
+  color: rgb(236, 236, 236);
   font-size: 24px;
 }
 .foto-container {
@@ -48,8 +50,8 @@ h2 {
   width: 100%;
   overflow: hidden;
   border-radius: 24px;
-  border: 2px solid rgb(66, 66, 78);
-  opacity: 87%;
+  border: 2px solid rgb(77, 77, 82);
+  opacity: 95%;
 }
 
 .nombre {
@@ -90,7 +92,7 @@ h2 {
 .triangulo {
   width: 0;
   height: 0;
-  border-left: 160px solid #363744;
+  border-left: 160px solid #48495a;
   border-top: 200px solid transparent;
   border-bottom: 200px solid transparent;
 }
